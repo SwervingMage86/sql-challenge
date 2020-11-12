@@ -33,5 +33,9 @@ This code visualizes information from the database.
 
 * The first chart is a histogram of employee salary ranges
 	* Starting at $40k/year, there is a large, but steady dropoff of employee salaries as salary increments by $20k/year
+* The second chart shows the average salary of employees by title
+	* Staff and senior staff average the most, appearing almost equal (almost 60k/year)
+	* Managers are next with just over 50k/year
+	* Technique leader, senior engineer, engineer, and assistant engineer all average just under 50k/year
 
 	
