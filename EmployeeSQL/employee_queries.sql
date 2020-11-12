@@ -66,3 +66,12 @@ GROUP BY last_name
 ORDER BY count DESC
 ;
 
+-- Create a view of salaries and titles
+CREATE VIEW salary_title AS
+	SELECT s.emp_no, s.salary, t.title
+	FROM salaries s
+	JOIN employees e
+	ON s.emp_no = e.emp_no
+		JOIN titles t
+		ON e.emp_title = t.title_id
+;
